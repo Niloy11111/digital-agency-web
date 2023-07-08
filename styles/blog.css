@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav section styles */
+.menu-container{
+    background-color: rgb(175, 160, 160);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+.contact-us ol{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 20px;  
+}
+
+/* section 1 styles */
+.section-container{
+    background-image:url('/image/background.jpg');
+    height: 100vh;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.section-about{
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 85px;
+    margin-bottom: 15px;
+}
+.section-description{
+    font-size: 21px; 
+    max-width: 670px;
+}
+.btn-primary{
+    padding:13px 39px;
+    background-color: red;
+    font-size:21px;
+    border: none;
+    margin-top: 25px;
+    margin-right:8px;
+    color: white;
+}
+.btn-grey{
+    padding: 13px 39px;
+    background-color: rgb(173, 157, 157);
+    font-size:21px;
+    border: none;
+}
+.digital{
+    color: red;
+}
+
+/* section 1 styles */
+.section-1-btn{
+    padding: 13px 39px;
+    font-size:21px;
+    border: none;
+    border-radius: 25px;
+}
+.services-span{
+    font-size: 43px;
+    color: red;
+}
+.sectin-1-title{
+    font-size: 43px;
+    margin-bottom:23px;
+}
+.section-1-description{
+    margin-bottom:23px;
+}
+.section-1-container{
+    max-width: 650px;
+}
+.section-1-author{
+    display: flex;
+    max-width: 650px;
+    align-items: center;
+}
+.author-image{
+    border-radius: 70px;
+    width: 80px;
+    margin-right:6px;
+}
+.section-1-btn{
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+}
+.service-section{
+    height: 100vh;
+    background-image: url('/image/footer-bg.png'),rgba(0, 0, 0, 0);
+}
