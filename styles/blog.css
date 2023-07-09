@@ -86,10 +86,10 @@
 }
 .section-1-author{
     display: flex;
-    max-width: 650px;
+    max-width: 490px;
     align-items: center;
     margin-top: 27px;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 .author-image{
@@ -102,8 +102,10 @@
     background-color: white;
     padding: 13px 39px;
     font-size:21px;
-    border: none;
     border-radius: 25px;
+    border:none;
+    margin-left: 12px;
+
 }
 .service-section{
     height: 100vh;
@@ -113,11 +115,17 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .section-1-author-doc{
     display: flex;
     align-items: center;
-    gap: 3px;
-
+    gap: 3px;  
+}
+.border-btn{
+    border-left: 1px solid red;
+    height: 84px;
+    display: flex;
+    align-items: center;
 }
 .right-side-icon{
     width: 320px;
@@ -147,4 +155,52 @@
     display: flex;
     gap: 16px;
     margin-bottom: 16px;
+}
+/* appointment section styles */
+.appointment-section{
+    background-color: red;
+    height: 175px;
+    border-radius: 13px;
+    margin: -80px 160px 0px 160px;
+    padding: 10px 130px 0px 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-appointment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    border-right: 2px solid rgb(63, 60, 60);
+    padding-right: 10px;
+}
+.small-h2{
+    display: block;
+    padding-top: 17px;
+}
+.right-appointment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+}
+.appoint-image{
+    padding-bottom: 18px;
+}
+.text-part{
+    text-align: center;
+    padding: 30px;
+}
+.text-part-2{
+    background-color: rgb(218, 218, 199);
+    width: 780;
+    height: 300px;
+}
+.man{
+    width: 280px;
+    height: 300px;
+}
+.under-text{
+    padding: 25px;
 }
