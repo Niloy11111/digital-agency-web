@@ -192,15 +192,27 @@
     text-align: center;
     padding: 30px;
 }
-.text-part-2{
-    background-color: rgb(218, 218, 199);
-    width: 780;
-    height: 300px;
+.text-document{
+    background-color: tomato;
+    width: 290px;
+    height: 370px;
+    border-radius: 10px;
 }
 .man{
-    width: 280px;
-    height: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 4px;
 }
-.under-text{
-    padding: 25px;
+.text-document h3{
+    font-size: 24px;
+    padding-bottom: 14px;
 }
+.last-section{
+    display: flex;
+    padding: 26px;
+   width: 50%;
+   margin: auto;
+   gap: 70px;
+}
+
+  
